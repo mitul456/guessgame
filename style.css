@@ -54,5 +54,11 @@ body{
 }
 
 .bg-dange{
-    background-color: red !important;
+    background: red !important;
+    animation:  mymove 1s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: rgb(215, 106, 106);}
 }
